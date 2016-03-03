@@ -1,0 +1,37 @@
+{
+  "name": "fiss",
+  "version": "1.0.0",
+  "description": "a better solution for front-end based on fis3",
+  "main": "index.js",
+  "bin": {
+    "fiss": "bin/fiss.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangyihua/fiss.git"
+  },
+  "keywords": [
+    "fiss",
+    "fis3",
+    "front-end",
+    "solution"
+  ],
+  "author": "zhangyihua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangyihua/fiss/issues"
+  },
+  "homepage": "https://github.com/zhangyihua/fiss#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "fis3": "^3.3.16",
+    "fiss-command-init": "^1.1.0",
+    "liftoff": "^2.2.0",
+    "minimist": "^1.2.0",
+    "fiss-lint-csslint": "^1.0.0",
+    "fiss-lint-eslint": "^1.0.0"
+  }
+}
