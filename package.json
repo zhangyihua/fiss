@@ -30,8 +30,6 @@
     "fis3": "^3.3.16",
     "fiss-command-init": "^1.0.0",
     "liftoff": "^2.2.0",
-    "minimist": "^1.2.0",
-    "fiss-lint-csslint": "^1.0.0",
-    "fiss-lint-eslint": "^1.0.0"
+    "minimist": "^1.2.0"
   }
 }
