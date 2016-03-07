@@ -3,9 +3,10 @@
  * 
  */
 var fis = module.exports = require('fis3');
-fis.require.prefixes.unshift('fiss');
+var cliName = 'fiss';
+fis.require.prefixes.unshift(cliName);
 
-fis.cli.name = 'fiss';
+fis.cli.name = cliName;
 fis.cli.info = require('./package.json');
 fis.cli.version = require('./modules/version');
 

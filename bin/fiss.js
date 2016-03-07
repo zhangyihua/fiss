@@ -3,10 +3,11 @@
 var Liftoff = require('liftoff');
 var argv = require('minimist')(process.argv.slice(2));
 var path = require('path');
+var solutionName = 'fiss';
 var cli = new Liftoff({
-  name: 'fism', // 命令名字
-  processTitle: 'fism',
-  moduleName: 'fism',
+  name: solutionName, // 命令名字
+  processTitle: solutionName,
+  moduleName: solutionName,
   configName: 'fis-conf',
 
   // only js supported!
@@ -25,7 +26,8 @@ cli.launch({
   } else {
     fis = require(env.modulePath);
   }
-  fis.set('system.localNPMFolder', path.join(env.cwd, 'node_modules/fism'));
+  fis.set('system.localNPMFolder', path.join(env.cwd, 'node_modules/fiss'));
   fis.set('system.globalNPMFolder', path.dirname(__dirname));
+  fis.cli.name = this.name;
   fis.cli.run(argv, env);
 });
