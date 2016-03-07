@@ -1,6 +1,6 @@
 {
   "name": "fiss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a better solution for front-end based on fis3",
   "main": "index.js",
   "bin": {
