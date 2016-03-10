@@ -1,6 +1,6 @@
 /**
  * fism main module
- * 
+ *
  */
 var fis = module.exports = require('fis3');
 var cliName = 'fiss';
