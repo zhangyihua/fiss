@@ -15,8 +15,6 @@ function modifyRequirePrefix(fis) {
     fis.require.prefixes = ['fiss', 'fis3', 'fis'];
 }
 
-
-
 var config = {
     init: function(fis) {
         initScaffold(fis);
