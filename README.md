@@ -5,7 +5,7 @@
 ## 安装
 
 ```cli
-
+	
 	npm install fiss -g
 
 ```

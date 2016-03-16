@@ -9,16 +9,16 @@ function initScaffold(fis) {
 }
 
 
-//fis.require.prefixes 增加fiss
-function modifyRequirePrefix(fis) {
-    //default fis.require.prefixes = ['fis3', 'fis'];
-    fis.require.prefixes = ['fiss', 'fis3', 'fis'];
-}
+// //fis.require.prefixes 增加fiss
+// function modifyRequirePrefix(fis) {
+//     //default fis.require.prefixes = ['fis3', 'fis'];
+//     fis.require.prefixes = ['fiss', 'fis3', 'fis'];
+// }
 
 var config = {
     init: function(fis) {
         initScaffold(fis);
-        modifyRequirePrefix(fis);
+        // modifyRequirePrefix(fis);
     }
 }
 
