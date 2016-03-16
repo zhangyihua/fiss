@@ -1,6 +1,6 @@
 {
   "name": "fiss",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a better solution for front-end based on fis3",
   "main": "index.js",
   "bin": {
@@ -31,6 +31,6 @@
     "liftoff": "^2.2.0",
     "minimist": "^1.2.0",
     "fiss-command-init": "^1.1.0",
-	  "fiss-command-release":"*"
+    "fiss-command-release": "*"
   }
 }
