@@ -27,7 +27,7 @@
   "homepage": "https://github.com/zhangyihua/fiss#readme",
   "dependencies": {
     "colors": "^1.1.2",
-    "fis3": "^3.3.16",
+    "fis3": "3.3.20",
     "liftoff": "^2.2.0",
     "minimist": "^1.2.0",
     "fiss-command-init": "^1.2.0",
