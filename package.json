@@ -34,7 +34,6 @@
     "fiss-command-release": "*",
     "fis-lint-html-hint": "^1.0.0",
     "fiss-lint-csslint": "^1.0.0",
-    "fiss-lint-eslint": "^1.0.0",
-    "fiss-command-install": "^1.0.0"
+    "fiss-lint-eslint": "^1.0.0"
   }
 }

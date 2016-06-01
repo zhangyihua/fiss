@@ -2,14 +2,14 @@
 
 一个基于 [fis3](http://fis.baidu.com/fis3/index.html) 的前端解决方案。
 
-## 有问题? 请和我们联系
+## 联系我们
 
 [![Gitter](https://badges.gitter.im/zhangyihua/fiss.svg)](https://gitter.im/zhangyihua/fiss?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## 安装
 
 ```cli
-	
+
 	npm install fiss -g
 
 ```
@@ -23,7 +23,6 @@ Usage: fiss <command>
 Commands:
 
   init [command|template] [filename] [options]     init project/file scaffold with the specified template type
-  install                                          install components
   release [media name]                             build and deploy your project
   server <command> [options]                       launch a server
   inspect [media name]                             inspect the result of fis.match
@@ -41,7 +40,26 @@ Options:
 
 目前 fiss 基于 fis3 拓展 `init` 命令，执行 `fiss init -h` 查看详细，或查看 [fiss-command-init](https://github.com/zhangyihua/fiss-command-init) 说明。
 
+同时，我们移除了 fis3 的 `install`，统一使用 **[fecom]()** 进行组件管理。
+
+
 ## 资源列表
 
-- fiss 插件资源：[fiss-plugins](https://github.com/fiss-plugins)
-- fiss 模板资源：[fiss-scaffold](https://github.com/fiss-scaffold)
+- 命令
+  * [fiss-command-init](https://github.com/fiss-scaffold/fiss-command-init)
+  * [fiss-command-release](https://github.com/fiss-scaffold/fiss-command-release)
+
+- 插件
+  * [fis-lint-html-hint](https://github.com/fiss-scaffold/fis-lint-html-hint)
+  * [fiss-lint-csslint](https://github.com/fiss-scaffold/fiss-lint-csslint)
+  * [fiss-lint-eslint](https://github.com/fiss-scaffold/fiss-lint-eslint)
+  * [fis3-media-manage](https://github.com/fiss-scaffold/fis3-media-manage)
+  * [fis3-deploy-skip-packed-x](https://github.com/fiss-scaffold/fis3-deploy-skip-packed-x)
+  * [fis3-deploy-ftp-x](https://github.com/fiss-scaffold/fis3-deploy-ftp-x)
+  * [fis-parser-node-sass-x](https://github.com/fiss-scaffold/fis-parser-node-sass-x)
+  * [fis3-postpackager-loader-x](https://github.com/fiss-scaffold/fis3-postpackager-loader-x)
+
+- 模板
+  * [simple-m](https://github.com/fiss-scaffold/simple-m)
+  * [sample-amd](https://github.com/fiss-scaffold/sample-amd)
+  * [sample-use-components](https://github.com/fiss-scaffold/sample-use-components)
