@@ -38,10 +38,9 @@ Options:
 
 ```
 
-目前 fiss 基于 fis3 拓展 `init` 命令，执行 `fiss init -h` 查看详细，或查看 [fiss-command-init](https://github.com/zhangyihua/fiss-command-init) 说明。
+目前 fiss 基于 fis3 定制了 `init` 和 `release` 命令。
 
-同时，我们移除了 fis3 的 `install`，统一使用 **[fecom]()** 进行组件管理。
-
+同时，我们移除了 fis3 的 `install`，统一使用 **[fecom](https://github.com/icefox0801/fecom)** 进行组件管理。
 
 ## 资源列表
 
@@ -59,7 +58,7 @@ Options:
   * [fis-parser-node-sass-x](https://github.com/fiss-scaffold/fis-parser-node-sass-x)
   * [fis3-postpackager-loader-x](https://github.com/fiss-scaffold/fis3-postpackager-loader-x)
 
-- 模板
+- 工程模板
   * [simple-m](https://github.com/fiss-scaffold/simple-m)
   * [sample-amd](https://github.com/fiss-scaffold/sample-amd)
   * [sample-use-components](https://github.com/fiss-scaffold/sample-use-components)
