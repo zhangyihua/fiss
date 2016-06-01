@@ -4,6 +4,7 @@
 
 // 初始化脚手架
 function initScaffold(fis) {
+    fis.set('modules.commands', ['init', 'release', 'server', 'inspect']);
     fis.set('scaffold.namespace', 'fiss-scaffold');
     fis.set('scaffold.type', 'github');
 }
