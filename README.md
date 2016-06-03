@@ -50,8 +50,8 @@ Options:
 
 - 插件
   * [fis-lint-html-hint](https://github.com/fiss-scaffold/fis-lint-html-hint)
-  * [fiss-lint-csslint](https://github.com/fiss-scaffold/fiss-lint-csslint)
-  * [fiss-lint-eslint](https://github.com/fiss-scaffold/fiss-lint-eslint)
+  * [fis3-lint-csslint](https://github.com/fiss-scaffold/fis3-lint-csslint)
+  * [fis3-lint-eslint](https://github.com/fiss-scaffold/fis3-lint-eslint)
   * [fis3-media-manage](https://github.com/fiss-scaffold/fis3-media-manage)
   * [fis3-deploy-skip-packed-x](https://github.com/fiss-scaffold/fis3-deploy-skip-packed-x)
   * [fis3-deploy-ftp-x](https://github.com/fiss-scaffold/fis3-deploy-ftp-x)
